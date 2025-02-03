@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awards</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            margin: 30px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 20px 0;
+            text-align: center;
+            color: #444;
+        }
+
+        .award-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px 0;
+        }
+
+        .award-item {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .award-item img {
+            width: 100%;
+            height: 750px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .award-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .award-caption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .award-item1 img {
+           width: 100%;
+            max-width:1000px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .award-item2 img {
+            width: 100%;
+            height:750px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .award-item3 img {
+            width: 100%;
+            height:800px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+         
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff8a00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e52e71;
+        }
+ /* Navigation Bar */
+        nav {
+            background-color: #0073e6;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:flex-start;
+            gap:20px;
+            padding left:20px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Awards</h1>
+
+ <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About me .html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event-media.html">Event media</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="customer review.html">Google Reviews</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Award Gallery -->
+    <div class="award-gallery">
+        <div class="award-item">
+            <img src="foodhandlercertificate .jpg" alt="Award 1">
+            <p class="award-caption">Food Handler certificate</p>
+        </div>
+       <div class="award-item2">
+          <img src="IMG-20250202-WA0035.jpg" alt="Award 8">
+            <p class="award-caption">Diploma in Hotel management certificate</p>
+        </div>
+       <div class="award-item2">
+          <img src="IMG-20250202-WA0036.jpg" alt="Award 8">
+            <p class="award-caption">Diploma in Hotel management transcript certificate</p>
+        </div>
+       <div class="award-item2">
+          <img src="IMG-20250202-WA0036.jpg" alt="Award 8">
+            <p class="award-caption">Diploma in Hotel management transcript certificate</p>
+        </div>
+
+        <div class="award-item3">
+            <img src="LIM KOK TIEN DEAN List.jpg" alt="Award 4">
+            <p class="award-caption">Diploma Dean list</p>
+        </div>
+         <div class="award-item3">
+            <img src="Degree Dean list.jpg" alt="Award 5">
+            <p class="award-caption">Degree Dean list</p>
+        </div>
+        <div class="award-item">
+            <img src="This iS to certify that.jpg" alt="Award 6">
+            <p class="award-caption">Drum grade 1 exam certificate</p>
+        </div>
+        <div class="award-item">
+            <img src="IMG-20250202-WA0040.jpg" alt="Award 6">
+            <p class="award-caption">Drum grade 2 exam certificate</p>
+        </div>
+
+        <div class="award-item">
+            <img src="IMG-20250202-WA0039.jpg" alt="Award 6">
+            <p class="award-caption">Drum grade 3 exam certificate</p>
+        </div>
+        <div class="award-item">
+            <img src="IMG-20250202-WA0038.jpg" alt="Award 6">
+            <p class="award-caption">Accoustic guitar grade 2 exam certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0041.jpg" alt="Award 7">
+            <p class="award-caption">Drum solo certificate</p>
+        </div>
+         <div class="award-item2">
+          <img src="WhatsApp Image 2024-03-25 at 8.19.16 PM.jpg" alt="Award 8">
+            <p class="award-caption">Elementary project management certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0049.jpg" alt="Award 7">
+            <p class="award-caption">IGCSE JUNE 2021 result</p>
+        </div>
+
+        <div class="award-item1">
+            <img src="Statement of Results.jpg" alt="Award 7">
+            <p class="award-caption">IGCSE NOVEMBER 2021 result</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0044.jpg" alt="Award 7">
+            <p class="award-caption">Internship Evaluation</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0043.jpg" alt="Award 7">
+            <p class="award-caption">Internship Evaluation</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0042.jpg" alt="Award 7">
+            <p class="award-caption">Internship Evaluation</p>
+        </div>
+
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0047.jpg" alt="Award 7">
+            <p class="award-caption">Internship Evaluation</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0045.jpg" alt="Award 7">
+            <p class="award-caption">Internship Evaluation</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0048.jpg" alt="Award 7">
+            <p class="award-caption">Internship Evaluation</p>
+        </div>
+
+        <div class="award-item1">
+            <img src="Typhoid Certificate.jpeg" alt="Award 2">
+            <p class="award-caption">Typhoid vaccine</p>
+        </div>
+        <div class="award-item1">
+            <img src="GetImg (personal finance ceritficate).png" alt="Award 3">
+            <p class="award-caption">personal finance certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="Lim Kok Tien (1).jpg" alt="Award 9">
+            <p class="award-caption">The show cocktail reception service certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0032.jpg" alt="Award 9">
+            <p class="award-caption">Toulouse (France) dinner certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0034.jpg" alt="Award 9">
+            <p class="award-caption">Most Responsible Student certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0077.jpg" alt="Award 9">
+            <p class="award-caption">Outstanding conduct and exemplary behaviour certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0052.jpg" alt="Award 9">
+            <p class="award-caption">A fine night with L'ambrosia event certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0046.jpg" alt="Award 9">
+            <p class="award-caption">Voluntary role as Service Crew at Taylor's University Malaysia's Ibuniaga 2024 Launch High tea service certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0050.jpg" alt="Award 9">
+            <p class="award-caption">Experience Michelin Starred dinner from Le Berceau des Sens event certificate</p>
+        </div>
+        <div class="award-item1">
+            <img src="IMG-20250202-WA0051.jpg" alt="Award 9">
+            <p class="award-caption">Best Attendance Award certificate</p>
+        </div>
+
+    </div>
+
+    <!-- Back to Home -->
+    <div class="button-container">
+        <a href="customer review.html" class="button">Review from customer</a>
+    </div>
+</div>
+
+</body>
+</html>
