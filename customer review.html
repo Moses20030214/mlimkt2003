@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #555;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0073e6;
+            margin-bottom: 20px;
+        }
+        .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .review-img {
+            max-width: 48%; /* Ensures images fit side-by-side on most screens */
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .review-img {
+                max-width: 100%; /* Adjusts to full width on smaller screens */
+            }
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff8a00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e52e71;
+        }
+ /* Navigation Bar */
+        nav {
+            background-color: #0073e6;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:flex-start;
+            gap:20px;
+            padding left:20px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Google Reviews</h1>
+ <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About me .html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event-media.html">Event media</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="customer review.html">Google Reviews</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+
+        <div class="reviews">
+            <!-- Add your images here -->
+            <img src="Screenshot 2025-01-27 131935.png" alt="Review 1" class="review-img">
+            <img src="Screenshot 2025-01-27 132423.png" alt="Review 2" class="review-img">
+            <img src="Screenshot 2025-01-27 132541.png" alt="Review 3" class="review-img">
+            <img src="Screenshot 2025-01-27 132844.png" alt="Review 4" class="review-img">
+            <img src="Screenshot 2025-01-27 133038.png" alt="Review 4" class="review-img">  
+            <img src="Screenshot 2025-01-27 133403.png" alt="Review 4" class="review-img">   
+            <!-- Add more images as needed -->
+        </div>
+         <!-- Back to Home -->
+         <div class="button-container">
+         <a href="contact.html" class="button">Contact me</a>
+    </div>
+    </div>
+</body>
+</html>

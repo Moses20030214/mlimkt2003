@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event at Cafe 1986</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#800080; 
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a lifted effect */
+           
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333; /* Dark color for headings */
+        }
+
+        .section p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555; /* Slightly lighter text for readability */
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skills-item {
+            flex: 1 1 200px;
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow to skills items */
+            transition: 0.3s ease; /* Smooth hover effect */
+        }
+
+        .skills-item:hover {
+            transform: translateY(-10px); /* Hover effect: raise up the item */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        .skills-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #007bff; /* Blue color for skill titles */
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            padding-left:20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.1s;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+        /* Content Section Style */
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+ <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About me .html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event-media.html">Event media</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="customer review.html">Google Reviews</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+
+<div class="container">
+    <!-- Event Overview -->
+    <div class="section">
+        <h2>Event Overview</h2>
+        <p>In collaboration with my boss, I helped organize and execute an event at Cafe 1986, where all funds raised were donated to charity. This was my first time organizing an event, and my role included overseeing logistics, assisting with menu planning, and setting the event’s pricing strategy.</p>
+    </div>
+
+    <!-- Roles & Responsibilities -->
+    <div class="section">
+        <h2>Roles & Responsibilities</h2>
+        <p>I was responsible for:
+            <ul>
+                <li>Coordinating event logistics, including the setup and flow of the day.</li>
+                <li>Assisting with the menu planning and determining pricing strategies.</li>
+                <li>Ensuring smooth communication between the team and guests.</li>
+            </ul>
+        </p>
+    </div>
+
+    <!-- Skills Used -->
+    <div class="section">
+        <h2>Skills Used</h2>
+        <div class="skills-list">
+            <div class="skills-item">
+                <h3>Event Planning</h3>
+                <p>Organized all aspects of the event, from logistics to execution.</p>
+            </div>
+            <div class="skills-item">
+                <h3>Charity Fundraising</h3>
+                <p>Helped raise funds for a good cause by ensuring the event was successful.</p>
+            </div>
+            <div class="skills-item">
+                <h3>Team Collaboration</h3>
+                <p>Worked closely with my boss to ensure smooth coordination and execution.</p>
+            </div>
+            <div class="skills-item">
+                <h3>Problem Solving</h3>
+                <p>Adapted to promotional challenges and ensured the event ran smoothly.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Outcome -->
+    <div class="section">
+        <h2>Outcome</h2>
+        <p>Despite being my first event, it successfully raised funds for charity and created positive engagement within the community. The event provided valuable insights into customer preferences, which will help improve future event planning.</p>
+    </div>
+
+    <!-- Button to view media (Photos & Videos) -->
+    <div class="section">
+        <button class="button" onclick="window.location.href='event-media.html';">See Event Highlights</button>
+    </div>
+
+</div>
+
+</body>
+</html>

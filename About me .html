@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: darkblue;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 50px;
+            font-weight: normal;
+        }
+
+        .profile-section {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:50px;
+            margin: 20px auto;
+        }
+
+        .profile-image {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 6px solid #fff;
+            margin: 0;
+        }
+          img{
+              width:100%;
+              height:100%;
+              object-fit:cover;
+             border-radius:100%;
+              }
+       .profile-section button {
+            background-color: #800080;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+            margin: 0; /* Adds space between the paragraph and button */
+            display:inline-block;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+
+        }
+        .profile-section button:hover{ 
+          background-color:#000000
+         }
+
+        button {
+            background-color: #0000FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+            margin: 20px auto; /* Adds space between the paragraph and button */
+            display:block;
+
+        }
+        button:hover{ 
+          background-color:#000000
+         }
+
+
+        .bio-text {
+            font-size: 1rem;
+            max-width: 800px;
+            margin: 40px auto 0;
+            line-height: 1.8;
+            color: #fff;
+        }
+/* Navigation Bar Styles */
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            padding-left:20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.1s;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+        /* Content Section Style */
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>MY BIO</h1>
+ <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About me .html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event-media.html">Event media</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="customer review.html">Google Reviews</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <h2>A Bachelor in international Hospitality student</h2>
+
+    <div class="profile-section">
+        <img src="myformalphoto.png" alt="Max Size Image" class="profile-image">
+         <button onclick="window.location.href='Moses Resume with micro. word template v1 (4).pdf'">Resume</button>
+    </div>
+
+    <p class="bio-text">
+        I’m fortunate to have the opportunity to build a career in a field that I am passionate about. 
+        I am a very patient and hardworking person. When I have the vision of my future profession, I decided to go for it.
+        <br><br>
+        I’m thrilled to say that I’ve learned from trained professionals in my field, but I know that it is the start of a lifelong journey. 
+        I’m a hard-working, team player, and excited to make an impact on people with my unique skill set. 
+        I can speak in 3 languages, that is Chinese, English, and Malay. 
+        I’m a Malaysian and I live in Bukit Tinggi. My hobbies are playing drum, guitar and pickleball.
+    </p>
+    <button onclick="window.location.href='portfolio.html'">My portfolio</button>
+  </body>
+
+</html>

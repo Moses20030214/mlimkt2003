@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Media</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#FFFFFF;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align to the top */
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px; /* Adjusted max width */
+            margin: 30px auto;
+            background-color:#FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 20px 0;
+            text-align: center;
+            color: #444;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0073e6;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:flex-start;
+            gap:20px;
+            padding left:20px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-fit with minimum size for images */
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .image-item {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-item img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .image-caption {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Video Gallery */
+        .video-gallery {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video-gallery video {
+            width: 60%; /* Adjust the width of the video */
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* Button styling */
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff8a00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e52e71;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Event Media Section -->
+        <h2>Event Photos</h2>
+ <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About me .html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event-media.html">Event media</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="customer review.html">Google Reviews</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+
+
+        <!-- Image Gallery -->
+        <div class="image-gallery">
+            <div class="image-item">
+                <img src="WhatsApp Image 2024-11-16 at 18.24.20_b675e039.jpg" alt="Event Photo 1">
+                <p class="image-caption">Event promotional poster</p>
+            </div>
+            <div class="image-item">
+                <img src="WhatsApp Image 2025-01-16 at 22.38.04_0ead887a.jpg" alt="Event Photo 2">
+                <p class="image-caption"><strong>Mocktail of the day</strong></p>
+                <p class="image-caption">Sunrise Mocktail</p>
+            </div>
+            <div class="image-item">
+                <img src="WhatsApp Image 2024-12-15 at 12.40.40_992c0213.jpg" alt="Event Photo 3">
+                <p class="image-caption">Roast Chicken carving</p>
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div class="video-gallery">
+            <h2>Event Recap Video</h2>
+            <video controls>
+                <source src="WhatsApp Video 2024-12-15 at 12.40.20_13a71a31.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Back to Main Event Page -->
+        <div class="button-container">
+            <a href="awards.html" class="button">My Award</a>
+        </div>
+    </div>
+</body>
+</html>
+

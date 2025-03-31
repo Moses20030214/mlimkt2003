@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mlimkt2003@gmail.com/website</title>
+    <style>
+        .header {
+            background-color: blue;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            font-size: 40px;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        h2 {
+            color: #34495e;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 20px auto;
+            display: block;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        video {
+            display: block;
+            margin: 40px auto;
+            border: 2px solid #7f8c8d;
+            border-radius: 10px;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            padding-left:20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.1s;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+        /* Content Section Style */
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Welcome to my website</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About me .html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event-media.html">Event media</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="customer review.html">Google Reviews</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <h2>Enjoy</h2>
+    <video controls autoplay loop src="Lim Kok Tien.mp4" width="600"></video>
+    <button onclick="window.location.href='About me .html'">About me</button>
+
+    <script>
+        // Dynamically load the navigation bar
+        fetch('navigationbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading navigation bar:', error));
+    </script>
+</body>
+
+</html>
